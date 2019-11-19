@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#MainLogo{
+  width: 100%;
+  height: 480px;
+}
+
+#joinUs{
+  /* position: relative; */
+  text-decoration: none;
+  position: relative;
+  left: -1em;
+  height: 40px;
+  width: 120px;
+  color: #2090fa;
+  font-size: 3em;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  background-color: #17eb34;
+  border: none;
+  border-radius: 3px; */
+}
+
+.projectDemo{
+  border: solid gainsboro 3px;
+  width: 250px;
+  height: 360px;
+  display: grid;
+  grid-template-rows: 200px 50px 65px 13px 35px;
+  grid-template-columns: 100%;
+}
+
+.demoProjectImg img{
+  width: 100%;
+  height: 100%;
+}
+
+.demoProjectName{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.demoProjectDescription{
+  word-wrap: break-word;
+  font-size: 0.9em;
+}
+
+.demoInvestorInvestedSum{
+  color: #09d313;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+.projectsOnMainPage{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 1fr;
+}

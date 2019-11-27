@@ -70,6 +70,11 @@
   font-size: 0.9em;
 }
 
+.projectDescription{
+  display: inline-block;
+  width: 600px;
+}
+
 .demoInvestorInvestedSum{
   color: #09d313;
 }

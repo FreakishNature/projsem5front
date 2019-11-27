@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter , Route } from 'react-router-dom';
+import { BrowserRouter , Route, Switch } from 'react-router-dom';
 import './style/index.css';
 import App from './components/App';
+import ProjectReview from './components/ProjectReview';
 import * as serviceWorker from './serviceWorker';
 
 
 const routing = (
     <BrowserRouter >
         <div>
-            <Route path="/" component={App} />
+            <Switch>
+                <Route path="/project" component={ProjectReview} />
+                <Route path="/" component={App} />
+            </Switch>
         </div>
     </BrowserRouter >
 )
